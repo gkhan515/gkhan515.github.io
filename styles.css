@@ -1,0 +1,45 @@
+* {
+    //border: 2px solid red;
+}
+
+html, body {
+    background-color: #282c34;
+    color: #abb2bf;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    padding: 5% 20% 5% 20%;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+.about {
+    background-color: #4aa5f0;
+    color: #3f4451;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.bio {
+    width: 50%;
+}
+
+.pfp {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
