@@ -56,6 +56,10 @@ html, body {
     gap: 48px;
 }
 
+.project a {
+    color: #abb2bf;
+}
+
 .project img {
     width: 200px;
     height: 200px;
