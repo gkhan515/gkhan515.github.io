@@ -15,12 +15,12 @@ html, body {
     padding: 5% 20% 5% 20%;
 }
 
-ul {
+.header ul {
     display: flex;
     gap: 16px;
 }
 
-li {
+.header li {
     display: inline;
     list-style-type: none;
 }
@@ -29,7 +29,8 @@ li {
     background-color: #4aa5f0;
     color: #3f4451;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 72px;
     align-content: center;
 }
 
@@ -42,4 +43,25 @@ li {
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+/* .projects { */
+/*     padding: 0% 20% 0% 20%; */
+/* } */
+
+.projects h1 {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.project img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #abb2bf;
+    border-radius: 8px;
 }
