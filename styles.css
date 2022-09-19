@@ -9,6 +9,7 @@ html, body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .about {
@@ -45,10 +46,6 @@ html, body {
     object-fit: cover;
 }
 
-/* .projects { */
-/*     padding: 0% 20% 0% 20%; */
-/* } */
-
 .projects h1 {
     text-align: center;
 }
@@ -64,4 +61,17 @@ html, body {
     height: 200px;
     border: 2px solid #abb2bf;
     border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-self: flex-end;
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto;
+}
+
+footer a {
+    color: #abb2bf;
 }
